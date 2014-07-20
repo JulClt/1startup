@@ -1,0 +1,268 @@
+@import "font-awesome";
+@import 'bootstrap';
+@import "compass";
+@import url("http://fonts.googleapis.com/css?family=Pacifico");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic");
+
+body {
+	font-size: 13px;
+	color: #222;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+header {
+	z-index: 1000;
+	position: relative;
+	width: 100%;
+	padding-top: 20px;
+	margin-bottom: 15px;
+}
+header .navbar-default{
+	background: none;
+	border: none;
+}
+header .navbar-default .navbar-brand{
+	z-index: 900;
+	font-family: 'Pacifico', cursive;
+	font-size: 32px;
+	line-height: 32px;
+	color: rgb(255, 255, 255);
+}
+header .navbar-default .navbar-brand:hover{color: rgb(255, 255, 255);}
+.social-links {
+	float: right;
+}
+.social-links li {
+	float: left;
+	display: inline-block;
+	padding-left:10px;
+	padding-top: 20px;
+}
+.social-links a li {
+	color: #ffffff;
+	font-size: 18px;
+	-webkit-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	transition: color 0.2s;
+}
+.social-links a li:hover {
+	text-decoration: none;
+	color: #222222;
+}
+.centered
+{
+    text-align:center;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+   }
+}
+.btn-primary{background-color: rgb(217, 83, 79);}
+.btn-primary:hover{background-color: rgb(210, 50, 45);}
+.btn{
+	border-radius: 4px;
+	border: none;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 12px 24px;
+	line-height: 24px;
+	font-family: 'Open Sans', arial, sans-serif;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+.form-subscribe{
+	width: 400px;
+	margin: 0 auto;
+}
+.lp form input {
+	width: 400px;
+	height: 52px;
+	border-radius: 4px;
+	margin-right: 5px;
+}
+form button{
+	height: 53px;
+	width: 400px;
+	margin-bottom: 5.4px;
+	font-size: 22px;
+}
+form label {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: rgb(34,34,34);
+	margin-bottom: 2px;
+}
+section:first-child{padding-top:0;}
+section{padding: 20px 0;}
+section.part h2{font-size: 23px;}
+section#uvp h2{margin: 30px 0;}
+section#partners .asso img{
+	width:90px;
+	margin-top: 15px;
+	margin-right: 5px; 
+}
+section#partners .asso .img{
+	margin: 0 auto;
+	background-color:white;
+	border-radius: 65px;
+	width:130px;
+	height:130px;
+	display: block;
+}
+
+footer{text-align: center; color:#fff; margin: 10px 0; font-weight: 300;}
+
+
+/* ========== INTRO ========== */
+
+#intro {
+	width: 100%;
+	z-index: 1;
+	background: #fff;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	padding-bottom: 0px;
+	border:none;
+
+}
+#intro h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 62px;
+	line-height: 62px;
+	font-weight: 300;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color: rgb(34, 34, 34);
+	clear: both;
+	display: block;
+}
+#intro h2, section#what p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 32px;
+	color: rgb(34, 34, 34);
+	text-align: center;
+	margin-bottom: 35px;
+	clear: both;
+	display: block;
+}
+.intro-well {
+	position: relative;
+	z-index: 100;
+	padding-top: 20px;
+}
+
+/* ========== FEATURES ========== */
+
+#features{
+	width: 100%;
+	background-color: #0386c9;
+	padding: 70px 0;
+}
+#features .why {
+	margin-bottom: 70px;
+}
+#features h1 {
+	margin: 0;
+	padding-bottom: 30px;
+	display: block;
+	clear: both;
+	font-size: 28px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: 300;
+	color: #fff;
+}
+#features h2.why-statement{
+	margin-bottom: 30px;
+}
+#features h2 {
+	margin: 0;
+	padding-bottom: 10px;
+	display: block;
+	clear: both;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.3px;
+	text-align: center;
+	font-weight: 300;
+	color: #fff;
+}
+#features p {
+	color: #fff;
+}
+.iconbox {
+	background: rgba(0, 0, 0, 0) url('../img/icon_borders.png') no-repeat 0 0;
+	height: 120px;
+	margin: 0 auto 40px auto;
+	position: relative;
+	width: 270px;
+}
+
+.iconbox > a {
+	height: 126px;
+	left: 50%;
+	margin: -63px 0 0 -63px;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all .3s ease-out!important;
+	-moz-transition: all .3s ease-out!important;
+	-ms-transition: all .3s ease-out!important;
+	-o-transition: all .3s ease-out!important;
+	transition: all .3s ease-out!important;
+	width: 126px;
+}
+.iconbox a > i {font-size: 110px; color: #fff;}
+.icntitle {
+	font-size: 28px;
+	font-weight: 300;
+	line-height: 38px;
+	text-align: center;
+	padding-top: 0px;
+}
+.icnp {
+	text-align: center;
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+/* ========== SIGNUP ========== */
+
+#newsletter {
+	width: 100%;
+	z-index: 100;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #fff;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#newsletter h3 {
+	margin: 0;
+	padding: 0;
+	color: rgb(34, 34, 34);
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: 300;
+	text-align: center;
+}
+#newsletter form {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#newsletter form input{
+	width: 400px;
+
+}
+
+/* ========== FOOTER ========== */
+
+footer{color: rgb(34, 34, 34);}
