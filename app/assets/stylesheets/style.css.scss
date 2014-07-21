@@ -94,16 +94,17 @@ form label {
 	color: rgb(34,34,34);
 	margin-bottom: 2px;
 }
-section:first-child{padding-top:0;}
-section{padding: 20px 0;}
-section.part h2{font-size: 23px;}
-section#uvp h2{margin: 30px 0;}
-section#partners .asso img{
+section:first-child {padding-top:0;}
+section {padding: 20px 0;}
+section.part h2 {font-size: 23px;}
+section#uvp {padding-bottom: 70px;}
+section#uvp h2 {margin: 30px 0;}
+section#partners .asso img {
 	width:90px;
 	margin-top: 15px;
 	margin-right: 5px; 
 }
-section#partners .asso .img{
+section#partners .asso .img {
 	margin: 0 auto;
 	background-color:white;
 	border-radius: 65px;
@@ -112,7 +113,7 @@ section#partners .asso .img{
 	display: block;
 }
 
-footer{text-align: center; color:#fff; margin: 10px 0; font-weight: 300;}
+footer {text-align: center; color:#fff; margin: 10px 0; font-weight: 300;}
 
 
 /* ========== INTRO ========== */
